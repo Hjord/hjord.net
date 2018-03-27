@@ -23,7 +23,7 @@ defaults:
         layout: 'post'
 
 # Build settings
-destination: _site
+destination: docs
 paginate: 10
 permalink: /:year/:title/
 markdown: kramdown

@@ -1,3 +1,5 @@
-# Modified jekyll-uno theme
+# hjord.net
 
-[jekyll-uno](https://github.com/joshgerdes/jekyll-uno)
+Made with [Jekyll](https://jekyllrb.com/).
+
+Using a modified [jekyll-uno](https://github.com/joshgerdes/jekyll-uno) theme.
