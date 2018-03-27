@@ -40,7 +40,7 @@ table {
 body {
 	width: 100%;
 	background-color: #0d0d0d;
-	background-image: url("/images/bg.png");
+	background-image: url("../images/bg.png");
 	*zoom: 1; }
 	body:before, body:after {
 		content: "";
@@ -350,8 +350,7 @@ hr {
 	height: 100%;
 	/* background: #2b2d31;  */
 	background-color: #000000;
-background-image: url("/images/bg.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-image: url("../images/bg.png");
 }
 
 .panel-cover--collapsed {

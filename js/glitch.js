@@ -21,7 +21,7 @@
 
   // 圖片載入
   img.crossOrigin = "Anonymous";
-  img.src = '/images/profile.png';
+  img.src = 'images/profile.png';
   img.onload = function() {
     init();
     glitchAnimation();
