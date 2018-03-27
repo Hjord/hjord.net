@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 
   //Only show fancy on front
-  if(location.pathname == "/hjord.net/" && !location.hash){
+  if(location.pathname == "/" && !location.hash){
     $('.panel-title.original').hide();
     $('.panel-cover__description.original').hide();
  
@@ -60,7 +60,7 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
-  if (window.location.pathname !== '/hjord.net/' && window.location.pathname !== '/hjord.net/index.html') {
+  if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
@@ -77,7 +77,7 @@ $(document).ready(function () {
   function ReplaceGlitch() { //Replace glitchy image with normal. Distraction.
      $('#canvas').remove();
           var img = new Image();
-          img.src = '/hjord.net//images/profile_bw.png';
+          img.src = '//images/profile_bw.png';
           img.height = 300;
          $('.glitch a').append(img);
   }

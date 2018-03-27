@@ -3,10 +3,10 @@
   <channel>
     <title>Martin Hjord</title>
     <description>Developer</description>
-    <link>http://localhost:4000/hjord.net//</link>
-    <atom:link href="http://localhost:4000/hjord.net//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Mar 2018 17:36:44 +0200</pubDate>
-    <lastBuildDate>Tue, 27 Mar 2018 17:36:44 +0200</lastBuildDate>
+    <link>http://hjord.net//</link>
+    <atom:link href="http://hjord.net//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 27 Mar 2018 18:51:18 +0200</pubDate>
+    <lastBuildDate>Tue, 27 Mar 2018 18:51:18 +0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -21,8 +21,8 @@ You can also see statistics over your collection, such as most commen genre or w
 &lt;p&gt;Google Play Store: &lt;a href=&quot;lol&quot; target=&quot;_blank&quot;&gt;GameLogr&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Jan 2016 16:04:23 +0100</pubDate>
-        <link>http://localhost:4000/hjord.net//2016/gamelogr/</link>
-        <guid isPermaLink="true">http://localhost:4000/hjord.net//2016/gamelogr/</guid>
+        <link>http://hjord.net//2016/gamelogr/</link>
+        <guid isPermaLink="true">http://hjord.net//2016/gamelogr/</guid>
         
         
       </item>
@@ -46,8 +46,8 @@ You can also see statistics over your collection, such as most commen genre or w
 
 </description>
         <pubDate>Fri, 08 Jan 2016 16:04:23 +0100</pubDate>
-        <link>http://localhost:4000/hjord.net//2016/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/hjord.net//2016/welcome-to-jekyll/</guid>
+        <link>http://hjord.net//2016/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://hjord.net//2016/welcome-to-jekyll/</guid>
         
         <category>jekyll</category>
         
