@@ -1,0 +1,15 @@
+---
+title:  "GameLogr"
+date:   2016-01-08 15:04:23
+image: profile.png
+---
+Computer Science final year project.
+GameLogr is an Android app which gets data about games from [IGDB](https://igdb.com){:target="_blank"}.
+It's made with Java and uses an ondevice SQLite database to store all the users info so it can be accessed offline.
+
+
+In the app you can add games to your library, wishlist or backlog to keep track of your games.
+You can also see statistics over your collection, such as most commen genre or which console you have the most games for.
+
+
+Google Play Store: [GameLogr](lol){:target="_blank"}

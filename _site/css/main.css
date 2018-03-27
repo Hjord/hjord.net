@@ -1,0 +1,134 @@
+@import url(uno.css);
+@import url(icons.css);
+@import url(monokai.css);
+
+/* Modifications */
+
+.box{
+  padding: 30px 0;
+}
+
+.hello {
+  position: relative;
+  top: 100px;
+  left:50px;
+  width:270px;
+  color: #b5e853;
+  font-size: 50px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.3), 0 0 5px rgba(181,232,83,0.3), 0 0 10px rgba(181,232,83,0.3);
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.glitch {
+  height: 300px;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+.glitch img  {
+  height: 300px;
+  border-radius: 100%;
+}
+
+#canvas {
+  height: 100%;
+  border-radius: 100%;
+}
+
+body:before{
+  display:none;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.post-list-img{
+  height:150px;
+  margin-left: 10px;
+  float:right;
+}
+
+pre.highlight,
+.highlight pre {
+  padding: 10px;
+}
+
+pre.highlight code,
+.highlight pre code {
+  white-space: pre-wrap;
+}
+
+.btn, 
+.navigation__item a {
+  margin: 5px 0;
+  white-space: nowrap;
+}
+
+.pagination__page-number {
+  display: inline-block;
+  padding: 10px;
+}
+
+.categories a,
+.tags a {
+  border: 1px solid #e25440;
+  border-radius: 20px;
+  color: #e25440;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.post-meta__tags {
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.footer__copyright {
+    margin: 0 20px 10px;
+}
+
+.user-image {
+  margin-bottom: 1.2em;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fff;
+  border-radius:100%;
+}
+
+
+.navigation__item a {
+  
+  border: solid #b5e853 2px;
+  border-radius:20px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  transition: all 0.3s linear;
+}
+
+.navigation__item:hover a {
+  
+  border-color: transparent white transparent white;
+  border-radius: 15px;
+  transition: all 0.1s linear;
+  color: #b5e853;
+}
+
+
+
+@media all and (max-width: 960px) {
+  .glitch {
+    height: 200px;
+  }
+  .glitch img  {
+    height: 200px;
+  }
+  
+
+
+}
