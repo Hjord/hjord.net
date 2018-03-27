@@ -83,7 +83,7 @@ $(document).ready(function () {
   function ReplaceGlitch() { //Replace glitchy image with normal. Distraction.
      $('#canvas').remove();
           var img = new Image();
-          img.src = '{{ site.baseurl }}/images/profile_bw.png';
+          img.src = 'images/profile_bw.png';
           img.height = 300;
          $('.glitch a').append(img);
   }
