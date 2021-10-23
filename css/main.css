@@ -26,12 +26,12 @@
 }
 .glitch img  {
   height: 300px;
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 
 #canvas {
   height: 100%;
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 
 body:before{
